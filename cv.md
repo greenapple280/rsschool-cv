@@ -37,3 +37,5 @@ nibh pellentesque dui, nec consectetur
 erat orci et libero. ");
 console.log(longestWord);
 ```
+
+![me](/C:\Users\Laptop\Downloads/foto.html "my foto")
