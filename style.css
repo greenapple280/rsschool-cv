@@ -14,9 +14,13 @@ body {
     font-weight: 400;
     line-height: 1.5;
     min-height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
 }
 
 .container {
@@ -50,6 +54,7 @@ body {
 
 .aside {
     width: 25%;
+    padding: 0 20px;
 }
 
 .section-title {
@@ -61,12 +66,33 @@ body {
 }
 
 .profile__img {
-    max-width: 250px;
+    max-width: 100%;
+    margin-bottom: 15px;
 }
 
 .profile__img img {
     object-fit: cover;
     width: 100%;
+}
+
+.contacts {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts__list,
+.education__list {
+    line-height: 30px;
+}
+
+.title {
+    margin-bottom: 15px;
+    background-color: #f0c6e4;
+}
+
+.education {
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 .main {
@@ -75,15 +101,17 @@ body {
 
 .about {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px 20px;
 }
 
 .main__title {
     font-size: 50px;
     line-height: 50px;
     font-weight: 600;
-    margin-bottom: 10px;
 }
 
 .main__text {
