@@ -57,6 +57,10 @@
                 <h1 class="main__title">Tatiana Kiseleva</h1>
                 <p class="main__text">Front-End developer student</p>
             </section>
+            <section class="about-me">
+                <h2 class="about-me__title title">About me</h2>
+                <p class="about-me__text">I like to study and learn something new. I like to read books, do physical education, listen to music of different genres. I'm fond of good cars and bikes. I lead active and healhy lifestyle. I like to work and see the results of my work.</p>
+            </section>
             <section class="skills">
                 <h2 class="skills__title title">Skills</h2>
                 <ul class="skills__list">
@@ -67,8 +71,31 @@
                     <li class="skills__item">English - B2</li>
                 </ul>
             </section>
+            <section class="code-example">
+                <h2 class="code-example title">Code example</h2>
+                <pre>
+                    <code class="code-example">
+                        listAllTasks: function () {
+                            let listAllTasksMessage = "";
+                            if (this.tasks.length === 0) {
+                              alert("There is no tasks to display."); 
+                            } else {   
+                              this.tasks.forEach((task) => {
+                              listAllTasksMessage +=
+                                "Id: " +
+                                task.id +
+                                " Description: " +
+                                task.description +
+                                " Complete: " +
+                                task.status +
+                                "\n";
+                            });
+                        }}
+                    </code>
+                </pre>
+            </section>
             <section class="projects">
-                <h2 class="skills__title title">My projects</h2>
+                <h2 class="projects__title title">My projects</h2>
                 <ul class="projects__list">
                     <li class="projects__item">
                         <a href="https://rolling-scopes-school.github.io/greenapple280-JSFEPRESCHOOL2024Q2/shelter/" target="_blank">
@@ -100,9 +127,9 @@
             <a class="footer__github" href="https://github.com/greenapple280" target="_blank">
                 My GitHub
               </a>
-              <p class="footer__year">2021-2022</p>
-              <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
-                <img src="img/rs_school_js.svg" width="86" height="32" alt="RS School">
+              <p class="footer__year">2024</p>
+              <a class="footer__rsschool" href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+                <img src="assets/rs-school-logo.svg" width="86" height="32" alt="RS School">
               </a>
         </footer>
 
