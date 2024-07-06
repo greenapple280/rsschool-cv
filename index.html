@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <script src="https://kit.fontawesome.com/10c378b679.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -11,8 +12,8 @@
 
 </head>
 <body>
-    <header class="header">
-        <div class="container">
+    <div class="wrapper">
+        <header class="header">
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item"><a href="#contacts" class="menu__link">About me</a></li>
@@ -22,11 +23,11 @@
                     <li class="menu__item"><a href="#skills" class="menu__link">Contacts</a></li>
                 </ul>
             </nav>
-        </div>
-    </header>
+        </header>
 
 
-    <div class="aside">
+
+        <div class="aside">
                 <div class="profile">
                     <div class="profile__img">
                         <img src="./assets/sidebar-img.jpg" alt="this is me">
@@ -48,28 +49,63 @@
                     </section>
 
             </div>
-    </div>
+        </div>
 
     
-    <div class="main">
-        <section class="about">
-            <h1 class="main__title">Tatiana Kiseleva</h1>
-            <p class="main__text">Front-End developer student</p>
-        </section>
-        <section class="skills">
-            <h2 class="skills__title title">Skills</h2>
-        </section>
-        <section class="projects">
-            <h2 class="skills__title title">My projects</h2>
-        </section>
+        <main class="main">
+            <section class="about">
+                <h1 class="main__title">Tatiana Kiseleva</h1>
+                <p class="main__text">Front-End developer student</p>
+            </section>
+            <section class="skills">
+                <h2 class="skills__title title">Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__item">HTML/HTML5, CSS3/SCSS, BEM</li>
+                    <li class="skills__item">JavaScript</li>
+                    <li class="skills__item">Git, Github</li>
+                    <li class="skills__item">React</li>
+                    <li class="skills__item">English - B2</li>
+                </ul>
+            </section>
+            <section class="projects">
+                <h2 class="skills__title title">My projects</h2>
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <a href="https://rolling-scopes-school.github.io/greenapple280-JSFEPRESCHOOL2024Q2/shelter/" target="_blank">
+                            <img src="assets/shelter.PNG" width="1722" height="969" alt="Shelter site" class="projects__image">
+                        </a>
+                            <h3 class="projects__title">Shelter</h3>
+                            <ul class="projects__technologies">
+                                <li class="projects__technologiest-item"><i class="fa-brands fa-html5"></i></li>
+                                <li class="projects__technologiest-item"><i class="fa-brands fa-css3-alt"></i></li>
+                            </ul>
+                    </li>
+                    <li class="projects__item">
+                        <a href="https://rolling-scopes-school.github.io/greenapple280-JSFEPRESCHOOL2024Q2/shelter/" target="_blank">
+                            <img src="assets/shelter.PNG" width="1722" height="969" alt="Shelter site" class="projects__image">
+                        </a>
+                        <h3 class="projects__title">Shelter</h3>
+                        <ul class="projects__technologies">
+                            <li class="projects__technologiest-item"><i class="fa-brands fa-html5"></i></li>
+                            <li class="projects__technologiest-item"><i class="fa-brands fa-css3-alt"></i></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+
+
+        <footer class="footer">
+            <a class="footer__github" href="https://github.com/greenapple280" target="_blank">
+                My GitHub
+              </a>
+              <p class="footer__year">2021-2022</p>
+              <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
+                <img src="img/rs_school_js.svg" width="86" height="32" alt="RS School">
+              </a>
+        </footer>
+
     </div>
-
-
-
-    <footer class="footer">
-        <div class="container">
-
-        </div>
-    </footer>
 </body>
 </html>
